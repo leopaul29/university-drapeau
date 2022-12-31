@@ -1,7 +1,7 @@
 # READ_ME Projet Drapeau
-Lo�c Feuga & L�o-Paul Martin
+Loic Feuga & Léo-Paul Martin
 
-## /*********IMPORTANT**********/
+## IMPORTANT
 Pour que le projet fonctionne, il faut reconstruire l'arborescence suivante : 
 	Votre_Dossier : _Drapeau
 		         _Images
@@ -9,11 +9,10 @@ Pour que le projet fonctionne, il faut reconstruire l'arborescence suivante :
 		         _Application_Drapeau_lib
 		         _Application_Drapeau.jar
 		         _run.bat
-En lan�ant le run.bat l'application se lance 
-/****************************/
+En lancant le run.bat l'application se lance 
 
 
-## /*************Fonctionnalit�s****************/
+## Fonctionnalités
 
 Drapeaux:
 + drapeau � un niveau de panneaux => OK
@@ -59,10 +58,9 @@ Packaging avec Ant (execution d'un fichier project.xml de votre conception situ�
 + les sources et le dossier Data dans un .jar, => Externe au .jar OK
 + la javadoc dans un .jar, => Dans fichier doc OK
 + les sources dans un .jar, => Dans un .jar �x�cutable gr�ce � run.bat OK
-/*****************************************/
 
 
-## /****************Rajout***************/
+## Rajout
 
 Diaporama :
 +JSlider permettant de changer la vitesse du diaporama les extr�mes gauche et droite ont volontairement �tait modifi� (tr�s tr�s vite, tr�s lent)
@@ -72,5 +70,3 @@ Menu :
 
 Fenetre Descriptive :
 +Une fenetre en plus sur la droite apporte les m�mes fonctionnalit�s que le menu, mais sauf une autre forme ( avec JButton, JComboBox)
-/**************************************/
-
